@@ -59,7 +59,6 @@ bool verify(char* data, size_t length, Signature signature, Key key) {
     BIO_set_close(b, BIO_NOCLOSE);
     BIO_free(b);
     
-    delete rsa;
     return result;
 }
 
