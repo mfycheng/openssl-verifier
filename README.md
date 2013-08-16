@@ -1,4 +1,5 @@
 openssl-verifier
 ================
+C++ demo / usage of open ssl to show how to verify data. The project is setup such that it is trivial to share the public key over network.
 
-C++ Demo for simple verification of data
+Can be dropped into a project easily to support signing of data.
